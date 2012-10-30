@@ -1,0 +1,11 @@
+Source: moflow900
+Section: main
+Priority: extra
+Maintainer: unknown <alan@eth0.org.uk>
+Build-Depends: debhelper (>= 5), autotools-dev, libjson-glib-dev, libcurl4-openssl-dev, libmoflow-dev
+Standards-Version: 3.7.2
+
+Package: moflow900
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcurl4-openssl-dev, libjson-glib-1.0-0, libmoflow1
+Description: moflow900 displays live traffic information for the UK's motorway network
